@@ -15,7 +15,7 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <Link to="/products" className="flex items-center gap-2 text-lg font-bold">
           <ShoppingBag className="h-5 w-5" />
-          Магазин автозапчатин «AutoParts Store»
+          «AutoParts Store»
         </Link>
         <nav className="flex items-center gap-1 sm:gap-2">
           <Button asChild variant="ghost">
